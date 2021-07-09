@@ -17,13 +17,13 @@
     </EditText>
 
     <Button
+
         android:id="@+id/sendmessagebutton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:onClick="send"
-        android:text="SEND MESSAGE">
-
-    </Button>
+        android:text="SEND MESSAGE"
+        />
 
 </LinearLayout>

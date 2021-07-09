@@ -32,14 +32,14 @@ public class MainActivity extends AppCompatActivity {
     class MyServerThread implements Runnable
     {
         Socket s;
-        
+
         ServerSocket ss;
         InputStreamReader isr;
         BufferedReader bufferedReader;
         Handler h = new Handler();
 
         String message;
-
+        Byte yoo;
 
 
         @Override
@@ -78,4 +78,4 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-}
+    }
