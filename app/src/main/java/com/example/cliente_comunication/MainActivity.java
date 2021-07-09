@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         Handler h = new Handler();
 
         String message;
-        Byte yoo;
+
 
 
         @Override
